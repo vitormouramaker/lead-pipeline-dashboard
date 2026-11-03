@@ -1,0 +1,56 @@
+# Sobe o painel inteiro localmente: PostgreSQL + API + front.
+#
+#   docker compose up --build
+#
+# Front: http://localhost:3000   API: http://localhost:5000/health
+# Conta de demonstração (criada na subida): demo@example.com / Demo@1234
+services:
+  db:
+    image: postgres:16-alpine
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgres
+      POSTGRES_DB: painel_leads
+    ports:
+      - "5433:5432"
+    volumes:
+      - db-data:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U postgres -d painel_leads"]
+      interval: 3s
+      timeout: 3s
+      retries: 20
+
+  backend:
+    build: ./backend
+    depends_on:
+      db:
+        condition: service_healthy
+    environment:
+      NODE_ENV: development
+      PORT: 5000
+      DB_HOST: db
+      DB_PORT: 5432
+      DB_USER: postgres
+      DB_PASSWORD: postgres
+      DB_NAME: painel_leads
+      JWT_SECRET: segredo-local-somente-para-demonstracao-0001
+      CORS_ORIGIN: http://localhost:3000
+    # Cria as tabelas, a conta de demonstração e os leads de exemplo, e sobe a API.
+    command: sh -c "node scripts/seed-demo.js && node server.js"
+    ports:
+      - "5000:5000"
+
+  frontend:
+    build:
+      context: ./frontend
+      args:
+        # O navegador acessa a API pela porta publicada no host.
+        REACT_APP_API_URL: http://localhost:5000/api
+    depends_on:
+      - backend
+    ports:
+      - "3000:3000"
+
+volumes:
+  db-data:

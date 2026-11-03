@@ -1,0 +1,42 @@
+data,curso,instagram_de_origem,nome_do_lead,telefone,e_mail,status_do_lead,status_de_venda,valor_da_venda,data_do_follow_up,responsavel,observacoes
+2026-08-01,Workshop de Vendas,@perfil_principal,Alice Exemplo,1190000001,lead01@example.com,🟡 EM ANÁLISE,⏳ AGUARDANDO,,2026-11-05,Ana Demo,Pediu retorno por WhatsApp
+2026-09-08,Mentoria em Grupo,Indicação,Bernardo Teste,1190000002,lead02@example.com,🟢 QUALIFICADO,💰 EM NEGOCIAÇÃO,,2026-11-06,Bruno Demo,Parou de responder
+2026-10-15,Imersão Presencial,@perfil_eventos,Camila Fictício,1190000003,lead03@example.com,🔵 FOLLOW-UP,⏳ AGUARDANDO,,2026-11-07,Carla Demo,Quer saber sobre parcelamento
+2026-08-22,Curso Online de Gestão,Outros,Diego Demo,1190000004,,🔴 NÃO QUALIFICADO,❌ NÃO VENDEU,,,Ana Demo,Aguardando aprovação do sócio
+2026-09-01,Workshop de Vendas,Landing page,Elisa Modelo,1190000005,lead05@example.com,🟡 EM ANÁLISE,⏳ AGUARDANDO,,2026-11-09,Bruno Demo,Pediu proposta por e-mail
+2026-10-08,Mentoria em Grupo,@perfil_principal,Fábio Exemplo,1190000006,lead06@example.com,🟢 QUALIFICADO,💰 EM NEGOCIAÇÃO,,2026-11-10,Carla Demo,
+2026-08-15,Imersão Presencial,Indicação,Gabriela Teste,1190000007,lead07@example.com,🔵 FOLLOW-UP,⏳ AGUARDANDO,,2026-11-11,Ana Demo,Retornar na próxima semana
+2026-09-22,Curso Online de Gestão,@perfil_eventos,Henrique Fictício,1190000008,,🔴 NÃO QUALIFICADO,❌ NÃO VENDEU,,,Bruno Demo,
+2026-10-01,Workshop de Vendas,Outros,Isabela Demo,1190000009,lead09@example.com,🟡 EM ANÁLISE,⏳ AGUARDANDO,,2026-11-13,Carla Demo,Pediu retorno por WhatsApp
+2026-08-08,Mentoria em Grupo,Landing page,João Modelo,1190000010,lead10@example.com,🟢 QUALIFICADO,✅ VENDEU,"1.997,00",,Ana Demo,Parou de responder
+2026-09-15,Imersão Presencial,@perfil_principal,Karina Exemplo,1190000011,lead11@example.com,🔵 FOLLOW-UP,⏳ AGUARDANDO,,2026-11-15,Bruno Demo,Quer saber sobre parcelamento
+2026-10-22,Curso Online de Gestão,Indicação,Lucas Teste,1190000012,,🔴 NÃO QUALIFICADO,❌ NÃO VENDEU,,,Carla Demo,Aguardando aprovação do sócio
+2026-08-01,Workshop de Vendas,@perfil_eventos,Mariana Fictício,1190000013,lead13@example.com,🟡 EM ANÁLISE,⏳ AGUARDANDO,,2026-11-17,Ana Demo,Pediu proposta por e-mail
+2026-09-08,Mentoria em Grupo,Outros,Nicolas Demo,1190000014,lead14@example.com,🟢 QUALIFICADO,💰 EM NEGOCIAÇÃO,,2026-11-18,Bruno Demo,
+2026-10-15,Imersão Presencial,Landing page,Olívia Modelo,1190000015,lead15@example.com,🔵 FOLLOW-UP,⏳ AGUARDANDO,,2026-11-19,Carla Demo,Retornar na próxima semana
+2026-08-22,Curso Online de Gestão,@perfil_principal,Paulo Exemplo,1190000016,,🔴 NÃO QUALIFICADO,❌ NÃO VENDEU,,,Ana Demo,
+2026-09-01,Workshop de Vendas,Indicação,Quésia Teste,1190000017,lead17@example.com,🟡 EM ANÁLISE,⏳ AGUARDANDO,,2026-11-21,Bruno Demo,Pediu retorno por WhatsApp
+2026-10-08,Mentoria em Grupo,@perfil_eventos,Rafael Fictício,1190000018,lead18@example.com,🟢 QUALIFICADO,💰 EM NEGOCIAÇÃO,,2026-11-22,Carla Demo,Parou de responder
+2026-08-15,Imersão Presencial,Outros,Sofia Demo,1190000019,lead19@example.com,🔵 FOLLOW-UP,⏳ AGUARDANDO,,2026-11-23,Ana Demo,Quer saber sobre parcelamento
+2026-09-22,Curso Online de Gestão,Landing page,Tiago Modelo,1190000020,,🔴 NÃO QUALIFICADO,❌ NÃO VENDEU,,,Bruno Demo,Aguardando aprovação do sócio
+2026-10-01,Workshop de Vendas,@perfil_principal,Úrsula Exemplo,1190000021,lead21@example.com,🟡 EM ANÁLISE,⏳ AGUARDANDO,,2026-11-05,Carla Demo,Pediu proposta por e-mail
+2026-08-08,Mentoria em Grupo,Indicação,Vinícius Teste,1190000022,lead22@example.com,🟢 QUALIFICADO,✅ VENDEU,"1.997,00",,Ana Demo,
+2026-09-15,Imersão Presencial,@perfil_eventos,Wanda Fictício,1190000023,lead23@example.com,🔵 FOLLOW-UP,⏳ AGUARDANDO,,2026-11-07,Bruno Demo,Retornar na próxima semana
+2026-10-22,Curso Online de Gestão,Outros,Xavier Demo,1190000024,,🔴 NÃO QUALIFICADO,❌ NÃO VENDEU,,,Carla Demo,
+2026-08-01,Workshop de Vendas,Landing page,Yasmin Modelo,1190000025,lead25@example.com,🟡 EM ANÁLISE,⏳ AGUARDANDO,,2026-11-09,Ana Demo,Pediu retorno por WhatsApp
+2026-09-08,Mentoria em Grupo,@perfil_principal,Zeca Exemplo,1190000026,lead26@example.com,🟢 QUALIFICADO,💰 EM NEGOCIAÇÃO,,2026-11-10,Bruno Demo,Parou de responder
+2026-10-15,Imersão Presencial,Indicação,Amanda Teste,1190000027,lead27@example.com,🔵 FOLLOW-UP,⏳ AGUARDANDO,,2026-11-11,Carla Demo,Quer saber sobre parcelamento
+2026-08-22,Curso Online de Gestão,@perfil_eventos,Bruno Fictício,1190000028,,🔴 NÃO QUALIFICADO,❌ NÃO VENDEU,,,Ana Demo,Aguardando aprovação do sócio
+2026-09-01,Workshop de Vendas,Outros,Clara Demo,1190000029,lead29@example.com,🟡 EM ANÁLISE,⏳ AGUARDANDO,,2026-11-13,Bruno Demo,Pediu proposta por e-mail
+2026-10-08,Mentoria em Grupo,Landing page,Davi Modelo,1190000030,lead30@example.com,🟢 QUALIFICADO,💰 EM NEGOCIAÇÃO,,2026-11-14,Carla Demo,
+2026-08-15,Imersão Presencial,@perfil_principal,Estela Exemplo,1190000031,lead31@example.com,🔵 FOLLOW-UP,⏳ AGUARDANDO,,2026-11-15,Ana Demo,Retornar na próxima semana
+2026-09-22,Curso Online de Gestão,Indicação,Felipe Teste,1190000032,,🔴 NÃO QUALIFICADO,❌ NÃO VENDEU,,,Bruno Demo,
+2026-10-01,Workshop de Vendas,@perfil_eventos,Giovana Fictício,1190000033,lead33@example.com,🟡 EM ANÁLISE,⏳ AGUARDANDO,,2026-11-17,Carla Demo,Pediu retorno por WhatsApp
+2026-08-08,Mentoria em Grupo,Outros,Heitor Demo,1190000034,lead34@example.com,🟢 QUALIFICADO,✅ VENDEU,"1.997,00",,Ana Demo,Parou de responder
+2026-09-15,Imersão Presencial,Landing page,Iara Modelo,1190000035,lead35@example.com,🔵 FOLLOW-UP,⏳ AGUARDANDO,,2026-11-19,Bruno Demo,Quer saber sobre parcelamento
+2026-10-22,Curso Online de Gestão,@perfil_principal,Júlio Exemplo,1190000036,,🔴 NÃO QUALIFICADO,❌ NÃO VENDEU,,,Carla Demo,Aguardando aprovação do sócio
+2026-08-01,Workshop de Vendas,Indicação,Luana Teste,1190000037,lead37@example.com,🟡 EM ANÁLISE,⏳ AGUARDANDO,,2026-11-21,Ana Demo,Pediu proposta por e-mail
+2026-09-08,Mentoria em Grupo,@perfil_eventos,Murilo Fictício,1190000038,lead38@example.com,🟢 QUALIFICADO,💰 EM NEGOCIAÇÃO,,2026-11-22,Bruno Demo,
+2026-10-15,Imersão Presencial,Outros,Natália Demo,1190000039,lead39@example.com,🔵 FOLLOW-UP,⏳ AGUARDANDO,,2026-11-23,Carla Demo,Retornar na próxima semana
+2026-08-22,Curso Online de Gestão,Landing page,Otávio Modelo,1190000040,,🔴 NÃO QUALIFICADO,❌ NÃO VENDEU,,,Ana Demo,
+2026-10-30,Workshop de Vendas,Outros,Lead Sem Telefone,,sem.telefone@example.com,🟡 EM ANÁLISE,⏳ AGUARDANDO,,,Ana Demo,Linha de exemplo sem telefone
