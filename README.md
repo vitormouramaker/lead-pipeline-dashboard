@@ -2,9 +2,9 @@
 
 Painel web para a equipe comercial acompanhar leads da captação ao fechamento. A equipe já trabalhava numa planilha (curso de interesse, perfil de origem, status do lead, status da venda, follow-up, responsável). O painel transforma essa planilha num sistema: **importa o CSV** exportado dela, mostra **indicadores por status** e um **gráfico de distribuição**, permite **filtrar, buscar, criar, editar e excluir** leads, e reimportar a planilha atualizada sem duplicar ninguém (o telefone é a chave).
 
-> **Sobre esta versão:** versão anonimizada de um sistema que construí e que roda em produção para uma empresa; nomes, marca, domínios, conteúdo proprietário e dados foram substituídos por fictícios.
+> **Sobre esta versão:** projeto de equipe, feito para uma empresa e em produção. O desenvolvimento original é de Wesley Araujo e Marcelo (MarceloR23). Esta versão pública foi preparada por mim: anonimização (nomes, marca, domínios e dados trocados por fictícios), login JWT com bcrypt, correções de bugs, testes e ambiente local com Docker.
 
-**English summary:** Full-stack sales-pipeline dashboard for leads (React 18 + Create React App + Recharts / Node.js + Express + PostgreSQL). The sales team uploads the CSV exported from their spreadsheet; the API parses it as a stream and upserts every row in a single transaction, using the phone number as the natural key (`INSERT ... ON CONFLICT ... RETURNING (xmax = 0)` tells inserts from updates). The dashboard shows status cards, a pie chart, filters, search, pagination and a CRUD modal. JWT login with bcrypt, rate-limited login, restricted CORS and a size/type-limited upload. Runs locally with one `docker compose up`.
+**English summary:** Team project (originally developed by colleagues; I prepared this public version, adding JWT auth, fixes and tests). Full-stack sales-pipeline dashboard for leads (React 18 + Create React App + Recharts / Node.js + Express + PostgreSQL). The sales team uploads the CSV exported from their spreadsheet; the API parses it as a stream and upserts every row in a single transaction, using the phone number as the natural key (`INSERT ... ON CONFLICT ... RETURNING (xmax = 0)` tells inserts from updates). The dashboard shows status cards, a pie chart, filters, search, pagination and a CRUD modal. JWT login with bcrypt, rate-limited login, restricted CORS and a size/type-limited upload. Runs locally with one `docker compose up`.
 
 ---
 
@@ -283,6 +283,7 @@ lead-pipeline-dashboard/
 
 ---
 
-Autor: [@vitormouramaker](https://github.com/vitormouramaker)
+Desenvolvimento original: Wesley Araujo e Marcelo (MarceloR23), na equipe de tecnologia da empresa.
+Versão pública e melhorias listadas acima: [@vitormouramaker](https://github.com/vitormouramaker)
 
 Este código é exibido como portfólio. Ele não tem licença de uso aberta: todos os direitos são reservados.
